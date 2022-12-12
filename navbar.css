@@ -1,0 +1,129 @@
+*{
+    background-color: #141414;
+    margin: 0;
+}
+#nav{
+    width: 100%;
+    height: 80px;
+    /* background-color: aliceblue; */
+    border-bottom: 1px solid #7d7d7d;
+    display: flex;
+    justify-content: space-between;
+}
+#nav>div:nth-child(1){
+    height: 50px;
+    width: 4%;
+    display: flex;
+    /* border: 1px solid white; */
+    background-color: #141414;
+    margin-left: 50px;
+    margin-top: 9px;
+}
+#nav>div:nth-child(1)>img{
+    width: 100%;
+    background-color: #141414;
+    height: 50px;
+    color: antiquewhite;
+}
+#prem{
+    color: white;
+    margin-left: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: xx-large;
+    font-family: 'Oswald', sans-serif
+    /* width: 5%; */
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#nav>div:nth-child(2){
+    height: 70px;
+    width: 43%;
+    /* border: 1px solid white; */
+    margin-left: 170px;
+    display: flex;
+}
+#nav>div:nth-child(2)>input{
+    width: 80%;
+    height: 45px;
+    margin: 14px;
+    margin-right: 0;
+    color: white;
+    padding: 5px;
+    font-size: x-large;
+    background-color: #080808;
+    border: 0;
+}
+
+#stbtn{
+    width: 10%;
+    height: 45px;
+    margin:14px 0;
+    color: white;
+    background-color: #313131;
+    border: 0;
+    font-size: large;
+}
+#ndbtn{
+    width: 6%;
+    border-radius: 50%;
+    height: 45px;
+    margin:14px;
+    color: white;
+    background-color: #313131;
+    border: 0;
+    font-size: large;
+}
+#nav>div:nth-child(3){
+    height: 70px;
+    width: 14%;
+    /* border: 1px solid white; */
+    display: flex;
+    margin-right: 10px;
+    justify-content: space-between;
+
+}
+#nav>div:nth-child(3)>button{
+    width: 20%;
+    height: 50px;
+    /* border: 1px solid white; */
+    margin: auto;
+}
+.cam{
+    width: 6%;
+    border-radius: 50%;
+    /* height: 50px; */
+    /* margin:10px; */
+    color: white;
+    border: 0;
+    /* margin: auto; */
+    background-color: #313131;
+    /* border: 0; */
+    /* font-size: large; */
+}
+#G{
+    background-color: teal;
+    font-size: x-large;
+}
+
+.material-symbols-outlined {
+    background-color: #313131;
+    /* font-size: larger; */
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 800,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+
+.material-symbols-outlined {
+    background-color: #313131;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
